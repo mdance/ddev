@@ -140,4 +140,4 @@ echo
 
 echo "Starting mysqld."
 tail -f /var/log/mysqld.log &
-exec mysqld --server-id=0
+exec mysqld
